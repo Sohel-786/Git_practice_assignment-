@@ -5,11 +5,11 @@ function prime(num){
 				count++;
 			}
 		}
-	if(count==2){
-		console.log(num," is a Prime Number");
+	if(count==1){
+		return true;
 		}
 	else {
-		console.log(num," is Not a Prime Number");
+		return false;
 		}
 	}
 let num = 13;
