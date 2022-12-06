@@ -14,4 +14,3 @@ function prime(num){
 	}
 let num = 13;
 result = prime(num);
-console.log(result);
